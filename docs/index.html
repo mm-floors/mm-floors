@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M&M Floors – Exklusive Bodenverlegung</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1615986201384-fd835c8f8e36') center/cover no-repeat fixed;
+      color: #3a2e2a;
+    }
+    header {
+      background: linear-gradient(to right, #a47c48, #d2b48c);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-size: 3.5rem;
+      color: #f9d47c;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 25px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f9d47c;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 80%;
+    }
+    .section {
+      padding: 80px 30px;
+      max-width: 1300px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+    }
+    .section h2 {
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #5a422f;
+    }
+    .leistungen-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 40px;
+    }
+    .leistung {
+      background-color: #fffefb;
+      border: 2px solid #e0c092;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .leistung:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+    .leistung img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+    }
+    .leistung h3 {
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+      color: #795d45;
+    }
+    .leistung p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .kontakt-form {
+      max-width: 700px;
+      margin: 50px auto;
+    }
+    .kontakt-form input,
+    .kontakt-form textarea {
+      width: 100%;
+      padding: 16px;
+      margin: 14px 0;
+      border: 1px solid #cbb79e;
+      border-radius: 10px;
+      background-color: #fef9f3;
+      font-size: 1rem;
+    }
+    .kontakt-form button {
+      background-color: #f9d47c;
+      border: none;
+      padding: 16px 30px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #4a3826;
+      margin-top: 10px;
+    }
+    .kontakt-form button:hover {
+      background-color: #ebc25f;
+    }
+    footer {
+      background-color: #4a3826;
+      color: #f8f3ec;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>M&M FLOORS</h1>
+    <nav>
+      <a href="#start">Start</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#philosophie">Über Uns</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#impressum">Impressum</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="start">
+    <h2>Der Boden für Ihre Vision – M&M Floors Recklinghausen</h2>
+  </section>
+
+  <section class="section" id="philosophie">
+    <h2>Unsere Philosophie</h2>
+    <p style="text-align: center; max-width: 900px; margin: auto; font-size: 1.2rem;">
+      Jeder Raum erzählt seine eigene Geschichte – und wir sorgen für das passende Fundament. Bei M&M Floors steht Qualität an erster Stelle: Wir kombinieren modernes Design, hochwertige Materialien und präzise Handwerkskunst.
+    </p>
+  </section>
+
+  <section class="section" id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div class="leistungen-grid">
+      <a class="leistung" href="laminat.html">
+        <img src="https://images.unsplash.com/photo-1618213839416-b816c9b9f7f9" alt="Laminatverlegung">
+        <h3>Laminatverlegung</h3>
+        <p>Stilvoll, langlebig und pflegeleicht – für ein modernes Wohngefühl. Jetzt mehr erfahren!</p>
+      </a>
+      <a class="leistung" href="klickvinyl.html">
+        <img src="https://images.unsplash.com/photo-1602532288838-558e06f46e9f" alt="Klickvinyl Verlegung">
+        <h3>Klickvinyl & Designbeläge</h3>
+        <p>Ideal für Küche & Bad – wasserdicht, robust & elegant. Entdecken Sie die Vielfalt.</p>
+      </a>
+      <a class="leistung" href="fliesen.html">
+        <img src="https://images.unsplash.com/photo-1626102433236-529119aadb4b" alt="Fliesenarbeiten">
+        <h3>Fliesenarbeiten</h3>
+        <p>Ob Marmor, Keramik oder Feinsteinzeug – wir fliesen mit Präzision und Stilgefühl.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <p style="text-align: center;">
+      <strong>Standort:</strong> Recklinghausen<br>
+      <strong>Telefon:</strong> <a href="tel:+4915216615610">0152 1661 5610</a><br>
+      <strong>E-Mail:</strong> <a href="mailto:mohammad.abozr1@gmail.com">mohammad.abozr1@gmail.com</a>
+    </p>
+    <form class="kontakt-form">
+      <input type="text" placeholder="Ihr Name" required />
+      <input type="email" placeholder="Ihre E-Mail" required />
+      <textarea rows="5" placeholder="Ihre Nachricht" required></textarea>
+      <button type="submit">Nachricht senden</button>
+    </form>
+  </section>
+
+  <section class="section" id="impressum">
+    <h2>Impressum</h2>
+    <p style="text-align: center;">Verantwortlich: Mohammad Abozr, Recklinghausen</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 M&M Floors – Qualität beginnt beim Boden</p>
+    <p>Design, Verlegung & Beratung – alles aus einer Hand</p>
+  </footer>
+</body>
+</html>
+
+
